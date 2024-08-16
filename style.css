@@ -35,14 +35,14 @@ a {
     align-items: center;
 }
 .homeimage {
-    height: 55vh;
-    width: 45vw;
-    background-color: red;
+    height: 68vh;
+    width: 42vw;
+    background-color: gray;
     margin-top: 10vh;
 
 }
 .hometext{
-    height: 55vh;
+    height: 68vh;
     width: 45vw;
     margin-top: 10vh;
     text-align: center;
@@ -58,7 +58,7 @@ a {
 .aboutsection {
     width: 100vw;
     height: 100vh;
-    background-color: cyan;
+    background-color: lightgray;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -75,12 +75,16 @@ a {
 }
 .aboutsection h1{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.2rem;
+    text-decoration-line: underline;
+}
+.aboutsection p {
+    font-size: larger; 
 }
 .portfoliosection{
     width: 100vw;
     height: 100vh;
-    background-color: brown;
+    background-color: lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,4 +99,15 @@ a {
     height: 80vh;
     margin-top: 17vh;
     text-align: center;
+}
+.portfoliosection h2{
+    font-size: x-large;
+    text-decoration-line: underline;
+}
+.portfoliosection p{
+    font-weight: bold;
+}
+.portfoliosection p i {
+    font-size: larger;
+    font-weight: bold;
 }
